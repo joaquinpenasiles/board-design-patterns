@@ -18,7 +18,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Graphic representation:**
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/assigned-tasks-board-design.pdf
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Components description:** Lists store tasks (cards) without order or precedence relationship between the lists, allowing the flow of tasks between them.
 
