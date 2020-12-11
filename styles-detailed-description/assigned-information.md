@@ -18,7 +18,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Graphic representation:**
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/assigned-information-or-resources-board-design.pdf
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Components description:** Cards represent information that can flow between lists. Lists are divisions without a specific relationship order between them (for example, the different departments of an enterprise do not have an a priori established movement order).
 
