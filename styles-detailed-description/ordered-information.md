@@ -18,6 +18,8 @@
 **Pattern model:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Graphic representation:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/ordered-information-board-design.pdf
  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Components description:** Information will be represented in cards, storaged in lists that can represent order, precedence, days, weeks, different stages of a project…
 
