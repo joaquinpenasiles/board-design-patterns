@@ -18,6 +18,8 @@
 **Pattern model:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Graphic representation:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/kanban-board-design.pdf
  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Components description:** There are three buckets that represent three different posible status of a task: “to do”, “doing” and “done”. Cards represent process’ tasks that flow between those buckets according to its evolution in the Project context. “Doing” bucket could be extended in more than one bucket, like for example “
 
