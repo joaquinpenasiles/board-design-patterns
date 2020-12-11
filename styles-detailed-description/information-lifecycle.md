@@ -2,7 +2,6 @@
 
 **Also known as/alias:** - 
 
-
 **Pattern definition:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Overview/Description:** This pattern will allow you to view all the information of your project structured by its status while you will be able to control its evolution too.
@@ -15,11 +14,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Issues/Consequences/resulting context:** As in Kanban, we could concatenate multiple Information Lifecycle boards as a pipeline, joining many processes from different boards.
 
-
 **Pattern model:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Graphic representation:**
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/information-or-resources-lifecycle-board-design.pdf
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Components description:** Lists frequently represent steps of a whole process while cards represent information that flow between those lists.
 
