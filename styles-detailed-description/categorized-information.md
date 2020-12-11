@@ -18,7 +18,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Graphic representation:** 
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/categorized-information-board-design.pdf
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Components description:** Buckets will be used as containers of information. This information will be collected in the cards as text. Details and additions (use of tags, variables of each card…) will be determined by the software used.
 
