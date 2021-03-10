@@ -14,7 +14,7 @@ https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-lang
 
 https://trello.com/b/VCaIAYFR/annual-email-marketing-calendar 
 
- ![image](https://user-images.githubusercontent.com/47741431/110638589-06e71700-81af-11eb-8ef9-c8e8026bb6ad.png)
+ ![image](https://user-images.githubusercontent.com/47741431/110646575-4d407400-81b7-11eb-9894-95cd04328e43.png)
 
 In this pattern we are representing an annual editorial calendar. Each list is a month of the year, and into each one we will put the publications of that period, represented by the cards. We will be able to add all relevant information of the publication in the card elements (due date, writer or platform of publication, for example). As months are ordered, following the natural order of the calendar, we use “Ordered Information” instead of “Categorized Information”. 
 
@@ -22,7 +22,7 @@ In this pattern we are representing an annual editorial calendar. Each list is a
 
 https://trello.com/b/Z5m66HsJ/freelance-branding-project 
 
- ![image](https://user-images.githubusercontent.com/47741431/110638614-0e0e2500-81af-11eb-8306-43ce165f7382.png)
+ ![image](https://user-images.githubusercontent.com/47741431/110646902-a8726680-81b7-11eb-90d5-e1c1322392a2.png)
 
 In this template we have the phases of a project representated in the lists. User has all the information of each step into the list, explaining what does it has to do and detailing each concept in the context of this project. We have all the stages since the discovery of a new costumer to the delivery of the work, ordering all the intermediate phases. Each card contains information about each phase requirements, for helping the user to know what and how does it have to do its work. 
 
