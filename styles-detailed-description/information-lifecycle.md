@@ -1,6 +1,6 @@
 **Pattern Name and classification/type:** INFORMATION OR RESOURCES LIFECYCLE 
 
-**•	Problem:* Situations or projects where it is important to manage the lifecycle of several resources when we need to know in which state every resource is. 
+**•	Problem:** Situations or projects where it is important to manage the lifecycle of several resources when we need to know in which state every resource is. 
 
 **•	Motivation:** We will use this pattern when it is critical to know the status of the resources or information that we have at our project. One of the most frequent uses of this pattern is the handling of a factory pipeline. The evolution of ideas, costumers or products is usually managed with this pattern. The usage of this pattern will allow the user to know which is the status of each resource at each moment. 
 
@@ -28,7 +28,7 @@ https://trello.com/b/tBR1MPkA/customer-success-board
 
 In this template we have five possible status of the costumers of an enterprise, since they are new clients (first list). In each card we will represent customer related information as for example, customer background, key contacts or contract details. The expected and normal flow is linear, but it’s a bit more free than the previous example, because a card can return from “At Risk/Focus” to “Active Costumers”, for example. 
 
-**•	Related Patterns discussion: 
+**•	Related Patterns discussion:**
 
 This pattern follows an idea similar to kanban, but representing information or resources instead of tasks. In kanban, cards flow through the phases or steps that we need for completing the process, while in this case, we usually represent the task that we have to do in the name of the list, and resources flow through them, as in the bike repair shop example. Kanban is more focused on the tasks, while this pattern allows a higher level of detail and amount of information of each resource. 
 
