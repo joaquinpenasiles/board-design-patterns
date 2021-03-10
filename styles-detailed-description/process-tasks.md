@@ -14,7 +14,7 @@ https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-lang
 
 https://trello.com/b/6NanhvtF/design-sprint 
 
- ![image](https://user-images.githubusercontent.com/47741431/110642365-3f88ef80-81b3-11eb-9451-20dbe6c07125.png)
+ ![image](https://user-images.githubusercontent.com/47741431/110648556-19664e00-81b9-11eb-95fe-36ff3a0aed28.png)
 
 In this pattern we are representing the six phases in which the project is divided. In each list we have al the task that we have to do for completing the phase. Phases are ordered, in this case, temporarily, by the time in real life that each phase occurs and their precedences (Pre-Sprint Prep is before Understand, Understand is before Diverge...) 
 
@@ -22,7 +22,7 @@ In this pattern we are representing the six phases in which the project is divid
 
 https://trello.com/b/suSC9geN/project-based-learning 
 
- ![image](https://user-images.githubusercontent.com/47741431/110642439-52032900-81b3-11eb-8c50-164bdbaccbf9.png)
+ ![image](https://user-images.githubusercontent.com/47741431/110648863-62b69d80-81b9-11eb-967c-77e1ea52ce5a.png)
 
 In this template we have six lists, for representing the six phases in which we divide this other project. They are ordered as in the previous example, following the same behaviour. 
 
