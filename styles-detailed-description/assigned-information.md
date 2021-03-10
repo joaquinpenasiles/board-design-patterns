@@ -14,7 +14,7 @@ https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-lang
 
 https://trello.com/b/tP0ROvp8/book-clubs
 
-![image](https://user-images.githubusercontent.com/47741431/110640916-ab6a5880-81b1-11eb-9f9e-065ccf7c76ff.png)
+![image](https://user-images.githubusercontent.com/47741431/110648000-a52baa80-81b8-11eb-9e69-f1e8c7f62d05.png)
 
 In this pattern we are representing a book catalogue. The flow of the resources is not defined a priori: a bookstore can be considered ”Awesome” only a period of time, and books can flow from its genre to ”Current” or to ”Done”, or from ”Current” to ”Done”. In addition, genres are not ordered following any criteria.
 
@@ -22,7 +22,7 @@ In this pattern we are representing a book catalogue. The flow of the resources 
 
 https://trello.com/b/E3s5vqAm/setlist-organizer
 
-![image](https://user-images.githubusercontent.com/47741431/110641039-cd63db00-81b1-11eb-877a-9c0a3de49d64.png)
+![image](https://user-images.githubusercontent.com/47741431/110648101-b5dc2080-81b8-11eb-8838-4bb771152a05.png)
 
 In this template we have a first list where the components of a music group are stored. The other two lists are two examples of pubs where concerts will be held. Artists will flow indistinctly to one pub or another, depending on where they play. Pubs will not be ordered by any criteria, and artists could flow completely free.
 
