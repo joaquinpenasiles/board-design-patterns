@@ -1,35 +1,25 @@
-**Pattern Name and classification/type:** Assigned Tasks
+**Pattern Name and classification/type:**  ASSIGNED TASKS 
 
-**Also known as/alias:** - 
+**•	Problem:**  Situations or projects in which we need to manage multiple tasks by changing the container to which it belongs, usually to represent that the task is assigned to one person or another. 
 
-**Pattern definition:**
+**•	Motivation:** This pattern will be used for controlling dynamic tasks, focusing on its assignment, exploiting the possibility of card flow. One of the most frequent uses of this pattern is managing collaborative work assignment. With this pattern, the user will know which tasks are assigned to each worker and it will be able to change it. It is quite useful for effort balancing, achieving an equitative distribution of task at each moment. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Overview/Description:** This pattern is mainly intended for organizing the task of a team, assigning them to each employee/group member (other uses can fit with this pattern, we only propose an example for explaining it)
+**•	Solution and graphic representation:**  Each list usually represents a person or a department, which is completely independent of the others, without any type of precedence or order between them. Each list will contain the tasks related to its corresponding topic. The resulting board will be similar to many to-do lists, independent of each other, but together in the same board. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Solution:** Each list will represent a team member (or an unordered phase, without an established precedence with each other) and tasks will be represented by cards. 
+https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/png/categorized-tasks-board-design.png 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Context/Applicability:** Team projects when we want to focus on the assignment (not on the status of the task as in kanban) or when the evolution of the task is not a priori established (as in kanban, where we have a predetermined and ordered flow)
+**•	Examples:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Motivation (problem):** Organizing tasks without a pre-established flow (not a pipeline or an ordered sequence)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**o	Team Tasks – 5 Things Workflow**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Issues/Consequences/resulting context:** We can represent different departments in different boards and we can concatenate tasks from one board to another.
+https://trello.com/b/DQDXYzN7/team-tasks-5-things-workflow 
 
-**Pattern model:**
+ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Graphic representation:**
+In this template we have the example of a team made up of five people. Each one has some tasks assigned (its responsabilities), but they are able to exchange tasks with some other partner. That possibility will depend on the context of the enterprise, and in the given example we don’t know it (because it’s not indicated in its description, that’s why we don’t draw the arrows in the previous image) but a priori, the flow of cards between lists is completely free (from one person or department to another. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/assigned-tasks-board-design.pdf
+**•	Related Patterns discussion:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Components description:** Lists store tasks (cards) without order or precedence relationship between the lists, allowing the flow of tasks between them.
+This pattern is quite similar to “Categorized Tasks”, differing only in the card flow. In this pattern, tasks are dynamic and can be assigned to different people or department as they change in real life, while in “Categorized Tasks” it’s not allowed to change the topic in which a card is stored. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Participants description:** The project manager can distribute the tasks between his/her employees (moving cards from one list (employee) to another) or each employee is responsible of managing its own tasks and moving them to the next employee when finishes.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Collaboration/behaviour:** Cards can flow between lists without an a priori established order (because there is not order precedence between lists). Tasks might not follow always the same path.
-
-**Related Patterns:** -
-
-**Examples/Known uses:** Enterprise task assignment to employees (when tasks are not finished by one employee and they have to pass by more than one person)
-
-**Implementation:** It is highly recommended to have some instantiation rules that specify the flow of cards in the board in your specific problem context. Just because there is not order precedence between lists does not mean that the card flow is free and unrestricted; you must specify it.
-
-**Instances/Sample code:** https://trello.com/templates/team-management/team-tasks---5-things-workflow-DQDXYzN7 (considering that tasks can be assigned to different employees in different moments).
+It’s also similar to “Kanban”, but this other pattern focus on the evolution of the task, not in its responsible or assigned department. 
