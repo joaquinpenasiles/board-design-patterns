@@ -1,36 +1,31 @@
-**Pattern Name and classification/type:** Ordered Information
+**Pattern Name and classification/type:**  ORDERED INFORMATION 
 
-**Also known as/alias:** -
+**•	Problem:**  Situations or projects in which we have to organize information in lists that follow some kind of sorting criteria. 
 
-**Pattern definition:**
+**•	Motivation:** We will use this pattern when we want to clasify information and there is a relevant order for prioritizing that resources and we need to focus not only in the classification, but also in the order between the categories. One of the most frequent uses of this pattern is having an editorial calendar (as shown in the first example), or some variant of this, as for example representing people instead of temporal divisions. This pattern will allow the user to manage static information with a determined order. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Overview/Description:** Using this pattern we will have a full vision of the static information of the project ordered by categories or steps (related between them by a specific precedence).
+**•	Solution and graphic representation:**  Each list represents a possible subdivision for storing the information, as for example temporal divisions (weeks, months…). These lists must be ordered or have some precedence relationship, not as in “Categorized Information”, where topics are completely independents. Each card will be stored in one and only one list, without flow between different lists. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **•	Solution:** This pattern will be used similar to Process Tasks pattern, but storing information instead of tasks, where cards are in one and only one list which is related with the others (order or precedence relationship).
+https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/png/ordered-information-board-design.png 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **•	Context/Applicability:** Projects with many information and related clasifications of it (order, sequenced stages…) or calendar usage (lists represent temporal divisions as days, weeks or months).
+**•	Examples:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **•	Motivation (problem):** Clasify ordered, related and static information.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**o	Annual Email Marketing Calendar**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **•	Issues/Consequences/resulting context:** In this pattern we do not have isolated notes by topic, as in categorized information. Here, the different lists have a precedence or order relationship, although cards do not flow between them.
+https://trello.com/b/VCaIAYFR/annual-email-marketing-calendar 
 
+ ![image](https://user-images.githubusercontent.com/47741431/110638589-06e71700-81af-11eb-8ef9-c8e8026bb6ad.png)
 
-**Pattern model:**
+In this pattern we are representing an annual editorial calendar. Each list is a month of the year, and into each one we will put the publications of that period, represented by the cards. We will be able to add all relevant information of the publication in the card elements (due date, writer or platform of publication, for example). As months are ordered, following the natural order of the calendar, we use “Ordered Information” instead of “Categorized Information”. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Graphic representation:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**o	Freelance Branding Project**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/ordered-information-board-design.pdf
- 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Components description:** Information will be represented in cards, storaged in lists that can represent order, precedence, days, weeks, different stages of a project…
+https://trello.com/b/Z5m66HsJ/freelance-branding-project 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Participants description:** Somebody adds the information to lists, and as it will not evolve (flow is not allowed), human intervention will be unnecessary once created.
+ ![image](https://user-images.githubusercontent.com/47741431/110638614-0e0e2500-81af-11eb-8306-43ce165f7382.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Collaboration/behaviour:** Cards do not flow between lists, so we use this pattern like Process Tasks pattern, but storing information instead of tasks.
+In this template we have the phases of a project representated in the lists. User has all the information of each step into the list, explaining what does it has to do and detailing each concept in the context of this project. We have all the stages since the discovery of a new costumer to the delivery of the work, ordering all the intermediate phases. Each card contains information about each phase requirements, for helping the user to know what and how does it have to do its work. 
 
-**Related Patterns:** -
+**•	Related Patterns discussion:**
 
-**Examples/Known uses:** Calendar
-
-**Implementation:** This pattern does not allow card flow, so if you are going to use it for a calendar, for example, when you place a card for a due date, you will not be able to move it to another day (if you do not do it in time or if you reorganize your agenda).
-
-**Instances/Sample code:** https://trello.com/templates/marketing/annual-email-marketing-calendar-VCaIAYFR
+This pattern is quite similar to “Categorized Information”, differing from each other in whether there ir presence or abscence of order between the lists. We will choose one or another depending on what do we want to represent in the list: for example, if we represent months, as in the first example of this pattern, we will use “Ordered Information”, because the months have a determined order. Nevertheless, if we are going to represent independent topics, without any type of rank between them, we will use “Categorized Information”. 
