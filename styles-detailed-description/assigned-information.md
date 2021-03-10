@@ -1,35 +1,29 @@
-**Pattern Name and classification/type:** Assigned Information
+**Pattern Name and classification/type:** ASSIGNED INFORMATION
 
-**Also known as/alias:** - 
+**· Problem:** Situations or projects in which we need to organize information or resources whose classification could change over time.
 
-**Pattern definition:**
+**· Motivation:** We will use this pattern for visualizing quickly which is the state of our resources, or who has it assigned. One of the most frequent uses of this pattern is having people represented in lists and its assigned resources as cards. That information could flow between the different lists, but without any predetermined order. Lists could also be used for representing status of the resource, for example, when they don’t follow an established order (as in a pipeline) or a determined sequence of steps.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Overview/Description:** Using this pattern we will have a view of the information of the project at each moment. This information can evolve, change its status and move to another list.
+**· Solution and graphic representation:** Each list represents the state of the resource where it is assigned temporarily, or the person assigned as responsible of that information. The divisions representated with lists shouldn’t follow any determined order. For example, if we represent people in lists, there mustn’t be any precedence or hierarchical relationship between them. If we use this pattern for representing something more abstract, list shouldn’t have a predetermined order as in a pipeline, where all activities are sequenced and follow a linear order. The resources represented in cards will flow between the different lists as they change their assigned person or their status. https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/png/assigned-information-or-resources-board-design.png
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Solution:** We will store the information in lists and we will move it through the different lists according to the needs of the specific problem, determining the meaning of the card flow in that context (because there is not an established precedence between lists).
+**· Examples:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Context/Applicability:** Projects with non-static information and without an established order/precedence between lists (topics or phases for example).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**o Book clubs**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Motivation (problem):** Representing information divided in not specifically ordered lists (the flow between the different lists is not determined a priori as if we have ordered steps of a project where the requirements phase is always before development phase).
+https://trello.com/b/tP0ROvp8/book-clubs
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Issues/Consequences/resulting context:** We can concatenate different Assigned Information boards as an information pipeline.
+![image](https://user-images.githubusercontent.com/47741431/110640916-ab6a5880-81b1-11eb-9f9e-065ccf7c76ff.png)
 
-**Pattern model:**
+In this pattern we are representing a book catalogue. The flow of the resources is not defined a priori: a bookstore can be considered ”Awesome” only a period of time, and books can flow from its genre to ”Current” or to ”Done”, or from ”Current” to ”Done”. In addition, genres are not ordered following any criteria.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Graphic representation:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**o Setlist Organizer**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/assigned-information-or-resources-board-design.pdf
+https://trello.com/b/E3s5vqAm/setlist-organizer
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Components description:** Cards represent information that can flow between lists. Lists are divisions without a specific relationship order between them (for example, the different departments of an enterprise do not have an a priori established movement order).
+![image](https://user-images.githubusercontent.com/47741431/110641039-cd63db00-81b1-11eb-877a-9c0a3de49d64.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Participants description:** We can have two scenarios: somebody moves all board’s cards (for example, the boss is responsible to move each worker to its assigned department) or each person move its own cards.
+In this template we have a first list where the components of a music group are stored. The other two lists are two examples of pubs where concerts will be held. Artists will flow indistinctly to one pub or another, depending on where they play. Pubs will not be ordered by any criteria, and artists could flow completely free.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Collaboration/behaviour:** Cards can flow between lists without a priori restrictions (they should be specified by the context of the problem)
+**· Related Patterns discussion:**
 
-**Related Patterns:** -
-
-**Examples/Known uses:** Representing an organizational enterprise structure with employees and departments where the workers can change their deparment.
-
-**Implementation:**
-
-**Instances/Sample code:** https://trello.com/templates/personal/book-clubs-tP0ROvp8
+This pattern is quite similar to “Information or resources lifecycle”, but without an established order between the lists. For this reason, "Information or resources lifecycle” is intended for representing pipelines or process with a determined order in their steps. With “Assigned Information”, the flow of the cards is unpredictable a priori and only depends on the real life factors that determine the assignment of the resource.
