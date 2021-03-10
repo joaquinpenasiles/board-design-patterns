@@ -14,7 +14,8 @@ https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-lang
 
 https://trello.com/b/DQDXYzN7/team-tasks-5-things-workflow 
 
- ![image](https://user-images.githubusercontent.com/47741431/110642986-e1104100-81b3-11eb-82c3-393a73842053.png)
+ ![image](https://user-images.githubusercontent.com/47741431/110649281-bf19bd00-81b9-11eb-803e-846a3fb0ca48.png)
+
 
 In this template we have the example of a team made up of five people. Each one has some tasks assigned (its responsabilities), but they are able to exchange tasks with some other partner. That possibility will depend on the context of the enterprise, and in the given example we don’t know it (because it’s not indicated in its description, that’s why we don’t draw the arrows in the previous image) but a priori, the flow of cards between lists is completely free (from one person or department to another. 
 
