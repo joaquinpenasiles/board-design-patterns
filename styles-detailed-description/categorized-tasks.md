@@ -1,35 +1,31 @@
-**Pattern Name and classification/type:** Categorized Tasks
+**Pattern Name and classification/type:**  CATEGORIZED TASKS 
 
-**Also known as/alias:** - 
+**•	Problem:**  Situations or projects in which we need to manage multiple to-do lists. 
 
-**Pattern definition:**
+**•	Motivation:** We will use this pattern when we want to focus on the classification of the tasks, regardless its status at each moment. One of the most frequent uses of this pattern is the management of multiple task lists to guide the user in the step by step of a project. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Overview/Description:** Using this pattern we will organize tasks by topic, normally for lonely use (not for team projects).
+**•	Solution and graphic representation:**  Each list represents a topic, which is completely independent of the others, without any type of precedence or order between them. Each list will contain the tasks related to its corresponding topic. The resulting board will be similar to many to-do lists, independent of each other, but together in the same board. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Solution:** We will structure our board according to the different topics of our specific problem, dividing the board in lists (one for each topic) and we will store the tasks of each topic in their corresponding list.
+https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/png/categorized-tasks-board-design.png 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Context/Applicability:** Topics or steps mutually exclusive and tasks without evolution control (as in a kanban for example).
+**•	Examples:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Motivation (problem):** Representing tasks without relationship between them and structuring them with a meaning (topics for example).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**o	8 Creative Habits**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Issues/Consequences/resulting context:** Note that if there is some relationship between the lists in which we are dividing our problem, we are using Process Tasks board. Here the different columns of our board are unrelated. 
+https://trello.com/b/L6SJcYm6/8-creative-habits 
 
-**Pattern model:**
+ ![image](https://user-images.githubusercontent.com/47741431/110642744-97275b00-81b3-11eb-87b9-ea63943402ea.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Graphic representation:** 
+In this template we have eight topics in which we clasify the tasks that we have to do for improve each area (we only show five of them in the above image for a better visualization). Topics are completely independent between them, as there isn’t any type of order or precedence between the lists. We can consider this solution as eight independent to-do lists, as for example: “list of tasks that I have to do for developing my skills”, in the case of the first list. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/categorized-tasks-board-design.pdf
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**o	Personal & Work Goals**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Components description:** Lists represent topics or excluding steps and cards represent tasks that belong to one and only one list.
+https://trello.com/b/QvHVksDa/personal-work-goals 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Participants description:** It is frequently designed for lonely usage, where the only person that uses the board can add, delete and edit lists and cards as he/she needs. 
+ ![image](https://user-images.githubusercontent.com/47741431/110642767-9f7f9600-81b3-11eb-82e9-02b89ef11f60.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Collaboration/behaviour:** As cards do not evolve or flow between lists, it is not necessary human intervention with the board once created, beyond editing them if necessary.
+In this template we have eight lists, representing eight areas of personal development, from “personal” to “financial”. We will store as many tasks as we need for achieving our goal of each area. The behaviour of this board is quite similar to the previous example, changing habits for personal areas. 
 
-**Related Patterns:** -
+**•	Related Patterns discussion:**
 
-**Examples/Known uses:** Getting Things Done (GTD) – A productivity methodology
-
-**Implementation:** It is really important to choose an appropriate division of lists (they have to be exlusives between them) and specify low level tasks for easing their realization in real life.
-
-**Instances/Sample code:** https://trello.com/templates/productivity/8-creative-habits-L6SJcYm6
+This pattern is quite similar to “Process Tasks” with the difference that in the second pattern the lists follow an established order, meaningful in the context of the problem, while in this one, they represent independent topics (habits and personal areas, in the two examples), without relationship or precedence between them. 
