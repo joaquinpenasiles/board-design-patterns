@@ -1,36 +1,33 @@
-**Pattern Name and classification/type:** Process Tasks
+**Pattern Name and classification/type:**  PROCESS TASKS 
 
-**Also known as/alias:** -
+**•	Problem:**  Situations or projects in which we have to provide a sequenced task guide, divided according to the different stages that make up the project. 
 
-**Pattern definition:**
+**•	Motivation:** We will use this pattern when we want to detail the tasks to be done to make up a project. With this pattern we want to focus on the task list, not in the state of each task at each moment (as in a Kanban). One of the most frequent uses of this pattern is enumerating all the steps (tasks) that wwe have to do for completing a step of a project, represented in the lists. When we complete all tasks of all lists, we would have completed the project. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Overview/Description:** Using this pattern, we will have a list of tasks for completing a whole project.
+**•	Solution and graphic representation:**  Each list represents a phase of the process that we are representing with the whole board, while cards are the tasks of each phase. In this way, we will provide the user a sequenced guide for completing the process, as the steps of a recipe. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Solution:** We will divide tasks by steps as we separate the steps to follow to make a cooking recipe.
+https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/png/process-tasks-board-design.png 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Context/Applicability:** Tasks based projects divided by steps (when we want to determine the tasks of each step).
+**•	Examples:**  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Motivation (problem):** Representing all the necessary tasks to complete a process structuring them step by step.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**o	Design Sprint**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Issues/Consequences/resulting context:** With this pattern we are not representing the evolution of the tasks of a project as in kanban. Here we are giving all the steps to follow (tasks) to complete a process but without having a direct relationship with how we are doing those tasks in real life.
+https://trello.com/b/6NanhvtF/design-sprint 
 
+ ![image](https://user-images.githubusercontent.com/47741431/110642365-3f88ef80-81b3-11eb-9451-20dbe6c07125.png)
 
-**Pattern model:**
+In this pattern we are representing the six phases in which the project is divided. In each list we have al the task that we have to do for completing the phase. Phases are ordered, in this case, temporarily, by the time in real life that each phase occurs and their precedences (Pre-Sprint Prep is before Understand, Understand is before Diverge...) 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Graphic representation:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**o	Project Based Learning**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/process-tasks-board-design.pdf
- 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Components description:** Cards will represent tasks and lists will represent the different steps in which we divide the whole project.
+https://trello.com/b/suSC9geN/project-based-learning 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Participants description:** As tasks do not flow between lists, it is not necessary human interaction with the board. We will add tasks one time, and they will not need changes. Furthermore, we can add more cards (or delete one) according to our needs during the process, but it is not allowed to change cards (in this case, we are using this board as a kanban, we are introducing card flow).
+ ![image](https://user-images.githubusercontent.com/47741431/110642439-52032900-81b3-11eb-8c50-164bdbaccbf9.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**•	Collaboration/behaviour:** Cards will not move between lists, so the only possible change is about adding information to the card (adding labels, tasks or assignments to a task).
+In this template we have six lists, for representing the six phases in which we divide this other project. They are ordered as in the previous example, following the same behaviour. 
 
-**Related Patterns:** -
+**•	Related Patterns discussion:**
 
-**Examples/Known uses:** Waterfall engineering process or a recipe.
+This pattern is quite similar to Kanban, but in this pattern the cards don’t flow between lists. We will choose Kanban if we want to focus on the evolution of each card, while we will choose “Process Task” if we want to have “to-do” lists of tasks for each phase of the project, following a determined order, but without managing its evolution with the time. 
 
-**Implementation:** Use it like guide with steps to follow, specify the tasks as much as possible (low level description, dividing it as much as possible) and do not skip any task or step for completing the project.
-
-**Instances/Sample code:** https://trello.com/templates/support/building-a-customer-feedback-program-C2ZIBftB
+“Process Tasks” is also similar to “Categorized Tasks” with the difference that in the first pattern the lists follow an established order (in the two examples showed above, this precedence is temporal), while in the second one, they generally represent independent topics, without relationship or precedence between them. 
