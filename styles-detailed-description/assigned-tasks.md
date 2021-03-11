@@ -19,7 +19,7 @@ https://trello.com/b/DQDXYzN7/team-tasks-5-things-workflow
 
 In this template we have the example of a team made up of five people. Each one has some tasks assigned (its responsabilities), but they are able to exchange tasks with some other partner. That possibility will depend on the context of the enterprise, and in the given example we don’t know it (because it’s not indicated in its description, that’s why we don’t draw the arrows in the previous image) but a priori, the flow of cards between lists is completely free (from one person or department to another. 
 
-**Related Patterns discussion:**
+**Related Patterns:**
 
 This pattern is quite similar to “Categorized Tasks”, differing only in the card flow. In this pattern, tasks are dynamic and can be assigned to different people or department as they change in real life, while in “Categorized Tasks” it’s not allowed to change the topic in which a card is stored. 
 
