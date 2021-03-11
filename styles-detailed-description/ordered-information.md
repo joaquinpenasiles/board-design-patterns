@@ -10,7 +10,7 @@
 
 **Examples:**
 
-**Annual Email Marketing Calendar**
+- **Annual Email Marketing Calendar**
 
 https://trello.com/b/VCaIAYFR/annual-email-marketing-calendar 
 
@@ -18,7 +18,7 @@ https://trello.com/b/VCaIAYFR/annual-email-marketing-calendar
 
 In this pattern we are representing an annual editorial calendar. Each list is a month of the year, and into each one we will put the publications of that period, represented by the cards. We will be able to add all relevant information of the publication in the card elements (due date, writer or platform of publication, for example). As months are ordered, following the natural order of the calendar, we use “Ordered Information” instead of “Categorized Information”. 
 
-**Freelance Branding Project**
+- **Freelance Branding Project**
 
 https://trello.com/b/Z5m66HsJ/freelance-branding-project 
 
