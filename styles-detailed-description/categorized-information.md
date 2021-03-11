@@ -1,16 +1,16 @@
-**Pattern Name and classification/type:** CATEGORIZED INFORMATION 
+# Pattern: CATEGORIZED INFORMATION 
 
-**•	Problem:** Situations or projects in which we need to categorize information by any criteria, when information does not change its category over time.  
+**Problem:** Situations or projects in which we need to categorize information by any criteria, when information does not change its category over time.  
 
-**•	Motivation:** We will use this pattern for having a quick view of how the information is structured, focusing on the categories in which it is clasified. One of the most frequent uses of this pattern is the storage of static information without any type of order, as for example, indexing it by its topic. In this way, we will use the board as a notebook where an alumn writes the notes of each subject, organizing that information by course, for example. 
+**Motivation:** We will use this pattern for having a quick view of how the information is structured, focusing on the categories in which it is clasified. One of the most frequent uses of this pattern is the storage of static information without any type of order, as for example, indexing it by its topic. In this way, we will use the board as a notebook where an alumn writes the notes of each subject, organizing that information by course, for example. 
 
-**•	Solution and graphic representation:** Each list represent a different topic where we will store the information, represented in the cards. Lists and topics must be independent, isolated and without order between them (sequenced steps, for example). Information will be stored in one list, only one, and always the same. This pattern will provide the user a topic-structured template to organize its information. 
+**Solution and graphic representation:** Each list represent a different topic where we will store the information, represented in the cards. Lists and topics must be independent, isolated and without order between them (sequenced steps, for example). Information will be stored in one list, only one, and always the same. This pattern will provide the user a topic-structured template to organize its information. 
 
-https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/png/categorized-information-board-design.png 
+![image](https://user-images.githubusercontent.com/47741431/110807974-dc1ac280-8283-11eb-92d8-086fbbf00fde.png)
 
-**•	Examples:**
+**Examples:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**o	Align Your Team With V2MOM**
+- **Align Your Team With V2MOM**
 
 https://trello.com/b/kS2AaauD/align-your-team-with-v2mom 
 
@@ -18,7 +18,7 @@ https://trello.com/b/kS2AaauD/align-your-team-with-v2mom
 
 In this template we have a first list where we describe an overview of the enterprise. In the following five lists we will store information related to these topics, defining them and having a clean visualization of that information. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**o	Customer Support Knowledge Base**
+- **Customer Support Knowledge Base**
 
 https://trello.com/b/1rz5Ctgi/customer-support-knowledge-base 
 
@@ -26,7 +26,7 @@ https://trello.com/b/1rz5Ctgi/customer-support-knowledge-base
 
 In this template we have five lists, where the first one contains the explanation of use of the board and the other four lists. In these other four lists we will information divided by topic, using the lists “Product & Report” and “Payment & Delivery” as two FAQs sections. “Diseases” list contains a large number of illness explained, while in “Requests" we will seek an answer for customer requests and add new articles/cards for future. 
 
-**Related Patterns discussion:**
+**Related Patterns:**
 
 This pattern is similar to “Categorized Tasks” as they differ from each other in which they represent: information and tasks respectively. Both are a similar way of showing relevant things about a project. With the first one we will emphasize in the information or notes of each phase, while with the second one we will see which tasks do we have to do for completing each step. 
 
