@@ -6,11 +6,11 @@
 
 **Solution and graphic representation:**  Each list usually represents a person or a department, which is completely independent of the others, without any type of precedence or order between them. Each list will contain the tasks related to its corresponding topic. The resulting board will be similar to many to-do lists, independent of each other, but together in the same board. 
 
-https://github.com/isa-group/board-design-patterns/blob/main/styles-graphic-language-representation/png/categorized-tasks-board-design.png 
+![image](https://user-images.githubusercontent.com/47741431/110807537-6dd60000-8283-11eb-8295-15432a97eab4.png)
 
 **Examples:**
 
-- **o	Team Tasks – 5 Things Workflow**
+- **Team Tasks – 5 Things Workflow**
 
 https://trello.com/b/DQDXYzN7/team-tasks-5-things-workflow 
 
